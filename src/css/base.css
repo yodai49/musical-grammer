@@ -1,0 +1,36 @@
+.content-wrapper{
+    position: relative;
+    background-color: var(--main-bg-color);
+    color:var(--main-font-color);
+    padding: 12px;
+}
+h1{
+    font-weight: 700;
+    color: var(--main-font-color);
+}
+h2{
+    font-weight: 700;
+    padding:24px 12px 0px 0px;
+}
+h2::after{
+    content: '';
+    background-image: url('./../images/base/cat.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-left:10px;
+    width:24px!important;
+    height:24px!important;
+    display: inline-block;
+}
+.my-ul{
+    border-radius: 6px;
+    border: solid 3px var(--main-font-color);
+    background-color: #fff;
+    padding: 6px 30px;
+}
+em{
+    font-style: normal;
+    font-weight: 600;
+    background: linear-gradient(to bottom, transparent 0%, transparent 59%, var(--main-emp-color) 70%);
+}

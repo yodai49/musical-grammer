@@ -1,0 +1,26 @@
+.scorebox{
+    position:relative;
+    left: 0px;
+    scale:0.9;
+    margin-bottom:12px;
+    margin-top:-12px;
+}
+.scorebox .abcjs-css-warning{
+    display: none;
+}
+.scorebox button{
+    line-height: 0px;
+}
+.scorebox textarea{
+    white-space:pre-wrap;
+    display: none;
+}
+.score svg{
+    width: 100%;
+}
+.score .abcjs-note_selected{
+    fill: #000;
+}
+.abcjs-inline-audio{
+    width: 240px;
+}

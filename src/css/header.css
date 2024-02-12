@@ -1,0 +1,6 @@
+.header{
+    background:var(--main-grad)!important;
+}
+.container-fluid{
+    font-weight: 600;
+}

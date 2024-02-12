@@ -1,0 +1,10 @@
+:root{
+    --main-bg-color: #f0f0f6;
+    --main-font-color:#011A27;
+    --main-grad:linear-gradient(to right, #063852, #000);
+    --main-emp-color: #E6DF44;
+    --main-emp2-color: #F0810F;
+}
+body{
+    font-family: "Zen Kaku Gothic New", sans-serif!important;
+}
