@@ -1,0 +1,12 @@
+.page-link{
+    color:var(--main-font-color)!important;
+    background-color: var(--main-bg2-color)!important;
+}
+.disabled-link{
+    pointer-events: none;
+    color:#666!important;
+}
+.pagination {
+    margin-top: 80px;
+    margin-bottom:40px;
+}
