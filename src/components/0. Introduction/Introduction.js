@@ -79,7 +79,8 @@ const Introduction = () => {
         <div className="text-wrap text-start">
           理解を確認するため、各章に<em>クイズ</em>を用意しています。<br></br>
           <Quiz00 id="Quiz00"/>
-          内容を確実に習得するため、<em>各テストの内容を理解してから次へ進む</em>ことを強くおすすめします。
+          内容を確実に習得するため、<em>各テストの内容を理解してから次へ進む</em>ことを強くおすすめします。<br></br>
+          クイズに正解した方は、画面下部にある「次の章へ」をタップして楽典の学習を始めましょう。まずは幹音について学んでいきます。
         </div>
         <BottomButtons currentID = "Introduction"/>
       </div>
