@@ -66,9 +66,9 @@ th, td {
 }
 .my-ul{
     border-radius: 6px;
-    border: solid 3px var(--main-font-color);
-    background-color: var(--main-white);
-    padding: 6px 6px 6px 30px;
+    border: double 4px var(--main-font-color);
+    background-color: var(--main-white-50-color);
+    padding: 9px 9px 9px 30px;
 }
 .text-start{
     margin:18px 0px 18px 0px;

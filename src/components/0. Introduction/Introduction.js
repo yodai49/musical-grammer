@@ -4,7 +4,7 @@ import Score from './../Score';
 import BottomButtons from './../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import {Link} from 'react-router-dom';
+import Quiz00 from './Quiz/0.0 QuizIntroduction';
 
 const Introduction = () => {
   return (
@@ -32,7 +32,7 @@ const Introduction = () => {
           本サイトで学べる内容は、以下の通りです。
         </div>
         <div className="table-responsive">
-        <table class="table text-nowrap">
+        <table className="table text-nowrap">
           <thead>
             <tr>
               <th scope="col">章</th>
@@ -78,6 +78,7 @@ const Introduction = () => {
         <h2>クイズについて</h2>
         <div className="text-wrap text-start">
           理解を確認するため、各章に<em>クイズ</em>を用意しています。<br></br>
+          <Quiz00 id="Quiz00"/>
           内容を確実に習得するため、<em>各テストの内容を理解してから次へ進む</em>ことを強くおすすめします。
         </div>
         <BottomButtons currentID = "Introduction"/>

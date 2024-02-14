@@ -1,0 +1,60 @@
+.quiz {
+    border-radius: 4px;
+    border: double 3px var(--main-font-color);
+    padding: 12px;
+    background: var(--main-white-50-color);
+    margin: 24px 0px;
+}
+.btn {
+    background-color: var(--main-navy);
+    color: var(--main-white);
+    margin-bottom:12px;
+}
+
+.btn:hover, 
+.btn:active, .btn:active:hover, 
+.btn.active, .btn.active:hover,
+.open > .dropdown-toggle.btn, 
+.open > .dropdown-toggle.btn:hover,
+.btn.disabled:hover, .btn[disabled]:hover, fieldset[disabled] .btn:hover{
+    background-color: var(--main-navy-80);
+    color: var(--main-white);
+}
+.btn:focus, 
+.btn:active.focus,
+.btn.active.focus,
+.btn:active:focus,
+.btn.active:focus, 
+.btn.disabled:focus, 
+.btn:focus, 
+.btn.disabled.focus, .btn[disabled].focus, fieldset[disabled] .btn.focus {
+    background-color: var(--main-navy);
+    color: var(--main-white);
+}
+.form-check-input:checked{
+    background-color: var(--main-font-color);
+    border-color: var(--main-font-color);
+}
+.options-wrapper{
+    margin-bottom:12px;
+    display: flex;
+    gap:24px;
+}
+.message-hidden {
+    display: none;
+}
+.message-show{
+    display: block;
+}
+.alert-danger{
+    --bs-alert-color: #333333;
+    --bs-alert-bg: #011A2730;
+    --bs-alert-border-color:#66666666;
+    --bs-alert-link-color: #33333333;
+}
+.alert-success{
+    --bs-alert-color: #484408;
+    --bs-alert-bg: #E6DF4450;
+    --bs-alert-border-color: #48440830;
+    --bs-alert-link-color:  #484408;
+}
