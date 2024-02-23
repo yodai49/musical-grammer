@@ -25,29 +25,30 @@ const Header = () => {
                         </li>
                         <li className="nav-item dropdown">
                             <a href="#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                2. 度数と和音
+                                2. 音階
                             </a>
                             <ul className="dropdown-menu">
-                                <li><HashLink to="/Interval1#title" className="dropdown-item">度数①</HashLink></li>
-                                <li><HashLink to="/Interval2#title" className="dropdown-item">度数②</HashLink></li>
-                                <li><HashLink to="/Harmony#title" className="dropdown-item">和音</HashLink></li>
+                                <li><HashLink to="/MajorScale#title" className="dropdown-item">長音階</HashLink></li>
+                                <li><HashLink to="/MinorScale#title" className="dropdown-item">短音階</HashLink></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
                             <a href="#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                3. 階名
+                                3. 調と階名
                             </a>
                             <ul className="dropdown-menu">
+                                <li><HashLink to="/" className="dropdown-item">調</HashLink></li>
                                 <li><HashLink to="/" className="dropdown-item">階名</HashLink></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
                             <a href="#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                4. 音階
+                                4. 度数と和音
                             </a>
                             <ul className="dropdown-menu">
-                                <li><HashLink to="/" className="dropdown-item">長音階</HashLink></li>
-                                <li><HashLink to="/" className="dropdown-item">短音階</HashLink></li>
+                                <li><HashLink to="/Interval1#title" className="dropdown-item">度数①</HashLink></li>
+                                <li><HashLink to="/Interval2#title" className="dropdown-item">度数②</HashLink></li>
+                                <li><HashLink to="/Harmony#title" className="dropdown-item">和音</HashLink></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">

@@ -3,9 +3,11 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Introduction from './components/0. Introduction/Introduction';
 import NaturalNote from './components/1. Note/NaturalNote';
 import DerivedNote from './components/1. Note/DerivedNote';
-import Interval1 from './components/2. Harmony/Interval1';
-import Interval2 from './components/2. Harmony/Interval2';
-import Harmony from './components/2. Harmony/Harmony';
+import MajorScale from  './components/2. Scale/MajorScale';
+import MinorScale from "./components/2. Scale/MinorScale";
+import Interval1 from './components/4. Chord/Interval1';
+import Interval2 from './components/4. Chord/Interval2';
+import Chord from './components/4. Chord/Chord';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import NotFound from './components/NotFound';
@@ -21,12 +23,17 @@ function App() {
         <header className="App-header">
           <Routes>
             <Route path="/" element={<Introduction />} />
+
             <Route path="/Introduction" element={<Introduction />} />
             <Route path="/NaturalNote" element={<NaturalNote />} />
             <Route path="/DerivedNote" element={<DerivedNote />} />
+
+            <Route path="/MajorScale" element={<MajorScale />} />
+            <Route path="/MinorScale" element={<MinorScale />} />
+
             <Route path="/Interval1" element={<Interval1 />} />
             <Route path="/Interval2" element={<Interval2 />} />
-            <Route path="/Harmony" element={<Harmony />} />
+            <Route path="/Chord" element={<Chord />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <a

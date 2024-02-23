@@ -4,14 +4,14 @@ import Score from '../Score';
 import BottomButtons from '../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Quiz25 from './Quiz/2.5 Interval5';
-import Quiz26 from './Quiz/2.6 Interval6';
+import Quiz25 from './Quiz/Interval5';
+import Quiz26 from './Quiz/Interval6';
 
 const Interval2 = () => {
   return (
     <div className="window-wrapper">
       <div className="content-wrapper">
-        <h1 id="title">2.2 度数②</h1>
+        <h1 id="title">4.2 度数②</h1>
         <p className="text-wrap text-start">
           この章では、度数の厳密な決め方を説明します。<br></br>
           楽典を初めて学ぶ場合は、この章をスキップして「<HashLink to="/Harmony#title">和音</HashLink>」に進むことをおすすめします。
@@ -156,7 +156,12 @@ const Interval2 = () => {
 
         もちろん増や減も音感で判断できればそれでよいですが、登場頻度が低いものはあやふやになりがちです。「長」「短」「完全」の3種類は音感で瞬時に判断し、それ以外はこの3種類からずらして考える、というのがスムーズだと思います。<br></br><br></br>
 
-        また、幹音同士の1度、4度、5度、8度は原則として「完全」になります。これも覚えておくと、度数を決める時に役立つかもしれません。
+        また、幹音同士の4度と5度には、以下の法則があります。<br></br><br></br>
+        <ul className="my-ul">
+          <li>4度……下の音がFの場合のみ増4度、それ以外は完全5度</li>
+          <li>5度……下の音がHの場合のみ減5度、それ以外は完全5度</li>
+        </ul>
+        これも覚えておくと、度数を決める時に役立つかもしれません。
         <h2>クイズ</h2>
         <Quiz25 id="Quiz25"/>
         <Quiz26 id="Quiz26"/>

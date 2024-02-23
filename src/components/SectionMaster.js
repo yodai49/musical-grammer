@@ -1,6 +1,7 @@
 const SECTION_LIST = [
     'Introduction', 
     'NaturalNote', 'DerivedNote',
+    'MajorScale', 'MinorScale',
     'Interval1', 'Interval2', 'Harmony',
 ];
 

@@ -4,10 +4,10 @@ import Score from './../Score';
 import BottomButtons from './../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Quiz16 from './Quiz/1.6 DerivedNote1';
-import Quiz17 from './Quiz/1.7 DerivedNote2';
-import Quiz18 from './Quiz/1.8 DerivedNote3';
-import Quiz19 from './Quiz/1.9 DerivedNote4';
+import Quiz16 from './Quiz/DerivedNote1';
+import Quiz17 from './Quiz/DerivedNote2';
+import Quiz18 from './Quiz/DerivedNote3';
+import Quiz19 from './Quiz/DerivedNote4';
 
 const DerivedNote = () => {
   return (

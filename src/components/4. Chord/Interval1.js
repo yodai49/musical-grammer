@@ -4,16 +4,16 @@ import Score from '../Score';
 import BottomButtons from '../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Quiz21 from './Quiz/2.1 Interval1';
-import Quiz22 from './Quiz/2.2 Interval2';
-import Quiz23 from './Quiz/2.3 Interval3';
-import Quiz24 from './Quiz/2.4 Interval4';
+import Quiz21 from './Quiz/Interval1';
+import Quiz22 from './Quiz/Interval2';
+import Quiz23 from './Quiz/Interval3';
+import Quiz24 from './Quiz/Interval4';
 
 const Interval1 = () => {
   return (
     <div className="window-wrapper">
       <div className="content-wrapper">
-        <h1 id="title">2.1 度数①</h1>
+        <h1 id="title">4.1 度数①</h1>
         <p className="text-wrap text-start">
           この章では、度数の基礎的な内容を扱います。
         </p>

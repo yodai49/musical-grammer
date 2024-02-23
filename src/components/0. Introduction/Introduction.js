@@ -47,19 +47,19 @@ const Introduction = () => {
               <td>4つの言語で音名を対応させられるようになる。</td>
             </tr>
             <tr>
-              <th scope="row">2. 度数と調</th>
-              <td>度数・調</td>
-              <td>2つの音の間の度数が答えられる。近親調が答えられる。</td>
+              <th scope="row">2. 音階</th>
+              <td><HashLink to="/MajorScale#title">長音階</HashLink>・<HashLink to="/MinorScale#title">短音階</HashLink></td>
+              <td>長音階・短音階を構成できる。</td>
             </tr>
             <tr>
-              <th scope="row">3. 階名と音階</th>
-              <td>階名・長音階・短音階</td>
-              <td>音名と階名の違いが理解できる。調の音階の構成音を言える。</td>
+              <th scope="row">3. 調と階名</th>
+              <td>調・階名</td>
+              <td>調の音階の構成音を言える。音名と階名の違いが理解できる。</td>
             </tr>
             <tr>
-              <th scope="row">4. 和音</th>
-              <td>和音</td>
-              <td>和音の構成音を言える。</td>
+              <th scope="row">4. 度数と和音</th>
+              <td><HashLink to="/Interval1#title">度数①</HashLink>・<HashLink to="/Interval2#title">度数②</HashLink>・<HashLink to="/Chord#title">和音</HashLink></td>
+              <td>度数を答えられる。和音の構成音を言える。</td>
             </tr>
             <tr>
               <th scope="row">5. 和声法入門</th>

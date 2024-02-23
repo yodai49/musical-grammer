@@ -4,12 +4,12 @@ import Score from './../Score';
 import BottomButtons from './../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Quiz10 from './Quiz/1.0 NaturalNote1';
-import Quiz11 from './Quiz/1.1 NaturalNote2';
-import Quiz12 from './Quiz/1.2 NaturalNote3';
-import Quiz13 from './Quiz/1.3 NaturalNote4';
-import Quiz14 from './Quiz/1.4 NaturalNote5';
-import Quiz15 from './Quiz/1.5 NaturalNote6';
+import Quiz10 from './Quiz/NaturalNote1';
+import Quiz11 from './Quiz/NaturalNote2';
+import Quiz12 from './Quiz/NaturalNote3';
+import Quiz13 from './Quiz/NaturalNote4';
+import Quiz14 from './Quiz/NaturalNote5';
+import Quiz15 from './Quiz/NaturalNote6';
 
 const NaturalNote = () => {
   return (
