@@ -37,8 +37,8 @@ const Header = () => {
                                 3. 調と階名
                             </a>
                             <ul className="dropdown-menu">
-                                <li><HashLink to="/" className="dropdown-item">調</HashLink></li>
-                                <li><HashLink to="/" className="dropdown-item">階名</HashLink></li>
+                                <li><HashLink to="/Keys" className="dropdown-item">調</HashLink></li>
+                                <li><HashLink to="/MovableDo" className="dropdown-item">階名</HashLink></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">

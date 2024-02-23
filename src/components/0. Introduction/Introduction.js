@@ -53,7 +53,7 @@ const Introduction = () => {
             </tr>
             <tr>
               <th scope="row">3. 調と階名</th>
-              <td>調・階名</td>
+              <td><HashLink to="/Keys#title">調</HashLink>・<HashLink to="/MovableDo#title">階名</HashLink></td>
               <td>調の音階の構成音を言える。音名と階名の違いが理解できる。</td>
             </tr>
             <tr>
