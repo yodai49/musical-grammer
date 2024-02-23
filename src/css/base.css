@@ -64,11 +64,20 @@ th, td {
 .table>:not(caption)>*>* {
     border-bottom-width: 2px;
 }
-.my-ul{
+.table-short {
+    max-width:320px!important;
+}
+.my-ul, .my-sup{
     border-radius: 6px;
     border: double 4px var(--main-font-color);
     background-color: var(--main-white-50-color);
-    padding: 9px 9px 9px 30px;
+    padding: 9px;
+}
+.my-sup{
+    font-size:0.9rem;
+}
+.my-ul{
+    padding-left: 30px;
 }
 .text-start{
     margin:18px 0px 18px 0px;
