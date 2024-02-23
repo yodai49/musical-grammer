@@ -4,10 +4,10 @@ import Score from './../Score';
 import BottomButtons from './../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Q_DerivedNote1 from './Quiz/Q_DerivedNote1';
-import Q_DerivedNote2 from './Quiz/Q_DerivedNote2';
-import Q_DerivedNote3 from './Quiz/Q_DerivedNote3';
-import Q_DerivedNote4 from './Quiz/Q_DerivedNote4';
+import QDerivedNote1 from './Quiz/QDerivedNote1';
+import QDerivedNote2 from './Quiz/QDerivedNote2';
+import QDerivedNote3 from './Quiz/QDerivedNote3';
+import QDerivedNote4 from './Quiz/QDerivedNote4';
 
 const DerivedNote = () => {
   return (
@@ -200,10 +200,10 @@ const DerivedNote = () => {
         <div className="text-wrap text-start">
           以下のクイズに答えてみましょう。幹音の復習も兼ねて、トライしてみてください。
         </div>
-        <Q_DerivedNote1 id="Quiz1"/>
-        <Q_DerivedNote2 id="Quiz2"/>
-        <Q_DerivedNote3 id="Quiz3"/>
-        <Q_DerivedNote4 id="Quiz4"/>
+        <QDerivedNote1 id="Quiz1"/>
+        <QDerivedNote2 id="Quiz2"/>
+        <QDerivedNote3 id="Quiz3"/>
+        <QDerivedNote4 id="Quiz4"/>
 
         <BottomButtons currentID = "DerivedNote"/>
       </div>

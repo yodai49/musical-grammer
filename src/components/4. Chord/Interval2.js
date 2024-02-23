@@ -4,8 +4,8 @@ import Score from '../Score';
 import BottomButtons from '../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Quiz25 from './Quiz/Q_Interval5';
-import Quiz26 from './Quiz/Q_Interval6';
+import QInterval5 from './Quiz/QInterval5';
+import QInterval6 from './Quiz/QInterval6';
 
 const Interval2 = () => {
   return (
@@ -163,8 +163,8 @@ const Interval2 = () => {
         </ul>
         これも覚えておくと、度数を決める時に役立つかもしれません。
         <h2>クイズ</h2>
-        <Quiz25 id="Quiz25"/>
-        <Quiz26 id="Quiz26"/>
+        <QInterval5 id="Quiz1"/>
+        <QInterval6 id="Quiz2"/>
 
         <BottomButtons currentID = "Interval2"/>
       </div>

@@ -4,10 +4,10 @@ import Score from '../Score';
 import BottomButtons from '../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Q_Interval1 from './Quiz/Q_Interval1';
-import Q_Interval2 from './Quiz/Q_Interval2';
-import Q_Interval3 from './Quiz/Q_Interval3';
-import Q_Interval4 from './Quiz/Q_Interval4';
+import QInterval1 from './Quiz/QInterval1';
+import QInterval2 from './Quiz/QInterval2';
+import QInterval3 from './Quiz/QInterval3';
+import QInterval4 from './Quiz/QInterval4';
 
 const Interval1 = () => {
   return (
@@ -98,8 +98,8 @@ const Interval1 = () => {
             そのため、DesとBの間の「✕✕」は「6」と決定できます。<br></br><br></br>
             数字が「1」から始まるので多少クセがありますが、慣れてしまえば数字部分は簡単です。<br></br>
             以下のクイズで慣れておきましょう。
-            <Q_Interval1 id="Quiz21"/>
-            <Q_Interval2 id="Quiz22"/>
+            <QInterval1 id="Quiz1"/>
+            <QInterval2 id="Quiz2"/>
         </div>
 
         <h2>「○○」の決め方</h2>
@@ -167,8 +167,8 @@ const Interval1 = () => {
         </div>        
 
         <h2>クイズ</h2>
-        <Q_Interval3 id="Quiz23"/>
-        <Q_Interval4 id="Quiz24"/>
+        <QInterval3 id="Quiz3"/>
+        <QInterval4 id="Quiz4"/>
         <BottomButtons currentID = "Interval1"/>
       </div>
     </div>

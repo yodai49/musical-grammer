@@ -5,7 +5,7 @@ import QuizAnswerButton from '../../QuizAnswerButton';
 import Score from '../../Score';
 import './../../../css/quiz.css';
 
-const Q_Interval2 = (props) => {
+const QInterval2 = (props) => {
     return (
     <div className="quiz">
         <div>以下の2音間の度数について、数字部分のみを答えてください。</div>
@@ -22,4 +22,4 @@ const Q_Interval2 = (props) => {
     );
 }
 
-export default Q_Interval2;
+export default QInterval2;

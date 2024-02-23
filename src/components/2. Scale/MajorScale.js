@@ -6,10 +6,10 @@ import BottomButtons from '../BottomButtons';
 import Piano from './../../images/piano.jpg';
 
 import {HashLink} from 'react-router-hash-link';
-import QuizMajorScale1 from './Quiz/Q_MajorScale1';
-import QuizMajorScale2 from './Quiz/Q_MajorScale2';
-import QuizMajorScale3 from './Quiz/Q_MajorScale3';
-import QuizMajorScale4 from './Quiz/Q_MajorScale4';
+import QMajorScale1 from './Quiz/QMajorScale1';
+import QMajorScale2 from './Quiz/QMajorScale2';
+import QMajorScale3 from './Quiz/QMajorScale3';
+import QMajorScale4 from './Quiz/QMajorScale4';
 
 const MajorScale = () => {
   return (
@@ -176,10 +176,10 @@ const MajorScale = () => {
         大体理解できた方は、次の問題に挑戦してみてください。<br></br><br></br>
         全音と半音について不安であれば、以下のピアノの画像を見ながら取り組んでみましょう。<br></br><br></br>
         <img src={Piano} className="img-fluid rounded piano" alt=""/>
-        <QuizMajorScale1 id="Quiz1"/>
-        <QuizMajorScale2 id="Quiz2"/>
-        <QuizMajorScale3 id="Quiz3"/>
-        <QuizMajorScale4 id="Quiz4"/>
+        <QMajorScale1 id="Quiz1"/>
+        <QMajorScale2 id="Quiz2"/>
+        <QMajorScale3 id="Quiz3"/>
+        <QMajorScale4 id="Quiz4"/>
 
         <BottomButtons currentID = "MajorScale"/>
       </div>

@@ -4,7 +4,7 @@ import QuizAnswerButton from '../../QuizAnswerButton';
 
 import './../../../css/quiz.css';
 
-const Q_NaturalNote4 = (props) => {
+const QNaturalNote4 = (props) => {
     return (
     <div className="quiz">
         <div>イタリア語で「レ」の音は、ドイツ語の何でしょう？</div>
@@ -20,4 +20,4 @@ const Q_NaturalNote4 = (props) => {
     );
 }
 
-export default Q_NaturalNote4;
+export default QNaturalNote4;

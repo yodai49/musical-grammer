@@ -4,12 +4,12 @@ import Score from './../Score';
 import BottomButtons from './../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Q_NaturalNote1 from './Quiz/Q_NaturalNote1';
-import Q_NaturalNote2 from './Quiz/Q_NaturalNote2';
-import Q_NaturalNote3 from './Quiz/Q_NaturalNote3';
-import Q_NaturalNote4 from './Quiz/Q_NaturalNote4';
-import Q_NaturalNote5 from './Quiz/Q_NaturalNote5';
-import Q_NaturalNote6 from './Quiz/Q_NaturalNote6';
+import QNaturalNote1 from './Quiz/QNaturalNote1';
+import QNaturalNote2 from './Quiz/QNaturalNote2';
+import QNaturalNote3 from './Quiz/QNaturalNote3';
+import QNaturalNote4 from './Quiz/QNaturalNote4';
+import QNaturalNote5 from './Quiz/QNaturalNote5';
+import QNaturalNote6 from './Quiz/QNaturalNote6';
 
 const NaturalNote = () => {
   return (
@@ -227,12 +227,12 @@ const NaturalNote = () => {
         <h2>クイズ</h2>
         <div className="text-wrap text-start">
           ある程度表の内容を覚えられたら、以下のクイズに答えてみましょう。音名の変換を練習しているうちに、自然と音名を言えるようになります。
-          <Q_NaturalNote1 id="Quiz1"/>
-          <Q_NaturalNote2 id="Quiz2"/>
-          <Q_NaturalNote3 id="Quiz3"/>
-          <Q_NaturalNote4 id="Quiz4"/>
-          <Q_NaturalNote5 id="Quiz5"/>
-          <Q_NaturalNote6 id="Quiz6"/>
+          <QNaturalNote1 id="Quiz1"/>
+          <QNaturalNote2 id="Quiz2"/>
+          <QNaturalNote3 id="Quiz3"/>
+          <QNaturalNote4 id="Quiz4"/>
+          <QNaturalNote5 id="Quiz5"/>
+          <QNaturalNote6 id="Quiz6"/>
         </div>
         <BottomButtons currentID = "NaturalNote"/>
       </div>

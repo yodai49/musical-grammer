@@ -4,7 +4,7 @@ import QuizAnswerButton from '../../QuizAnswerButton';
 
 import './../../../css/quiz.css';
 
-const QuizMajorScale3 = (props) => {
+const QMajorScale3 = (props) => {
     return (
     <div className="quiz">
         <div>Gから始まる長音階の属音は何でしょう？</div>
@@ -20,4 +20,4 @@ const QuizMajorScale3 = (props) => {
     );
 }
 
-export default QuizMajorScale3;
+export default QMajorScale3;
