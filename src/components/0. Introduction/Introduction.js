@@ -4,7 +4,7 @@ import Score from './../Score';
 import BottomButtons from './../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Quiz00 from './Quiz/0.0 QuizIntroduction';
+import QuizIntroduction1 from './Quiz/Q_Introduction';
 
 const Introduction = () => {
   return (
@@ -78,7 +78,7 @@ const Introduction = () => {
         <h2>クイズについて</h2>
         <div className="text-wrap text-start">
           理解を確認するため、各章に<em>クイズ</em>を用意しています。<br></br>
-          <Quiz00 id="Quiz00"/>
+          <QuizIntroduction1 id="Quiz1"/>
           内容を確実に習得するため、<em>各テストの内容を理解してから次へ進む</em>ことを強くおすすめします。<br></br>
           クイズに正解した方は、画面下部にある「次の章へ」をタップして楽典の学習を始めましょう。まずは幹音について学んでいきます。
         </div>

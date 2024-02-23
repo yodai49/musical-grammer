@@ -4,8 +4,8 @@ import Score from '../Score';
 import BottomButtons from '../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
-import Quiz25 from './Quiz/Interval5';
-import Quiz26 from './Quiz/Interval6';
+import Quiz25 from './Quiz/Q_Interval5';
+import Quiz26 from './Quiz/Q_Interval6';
 
 const Interval2 = () => {
   return (

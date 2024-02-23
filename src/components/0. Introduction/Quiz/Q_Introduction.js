@@ -1,11 +1,11 @@
 import Score from '../../Score';
 import QuizOptions from '../../QuizOptions';
-import QuizMessage from './../../QuizMessage';
-import QuizAnswerButton from './../../QuizAnswerButton';
+import QuizMessage from '../../QuizMessage';
+import QuizAnswerButton from '../../QuizAnswerButton';
 
 import './../../../css/quiz.css';
 
-const Quiz00 = (props) => {
+const QuizIntroduction1 = (props) => {
     return (
     <div className="quiz">
         <div>次の音符はどの音を表しているでしょう？</div>
@@ -22,4 +22,4 @@ const Quiz00 = (props) => {
     );
 }
 
-export default Quiz00;
+export default QuizIntroduction1;
