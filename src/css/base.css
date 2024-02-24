@@ -67,6 +67,11 @@ th, td {
 .table-short {
     max-width:320px!important;
 }
+.spanned td, .spanned th{
+    text-align: center;
+    vertical-align: middle;
+}
+
 .my-ul, .my-sup{
     border-radius: 6px;
     border: double 4px var(--main-font-color);

@@ -27,7 +27,8 @@ const MajorScale = () => {
         長音階とは、明るい響きの音階のことです。<br></br>
         例えばCの音から始まる長音階は、以下のようになります。再生ボタンを押して、明るい響きがすることを確かめてみてください。
         <Score id="ScaleScore1" score="CDEFGABc"/>
-        さて、この音階に含まれる音と、それぞれの音の間隔を表にしてみましょう。
+        さて、この音階に含まれる音と、それぞれの音の間隔を表にしてみましょう。<br></br>
+        なお、ここから先に出てくる音名は、特に断りがない限りすべてドイツ語です。
         <div className="table-responsive">
           <table className="table text-nowrap table-short">
             <tbody>

@@ -5,8 +5,9 @@ import NaturalNote from './components/1. Note/NaturalNote';
 import DerivedNote from './components/1. Note/DerivedNote';
 import MajorScale from  './components/2. Scale/MajorScale';
 import MinorScale from "./components/2. Scale/MinorScale";
-import Keys from  './components/3. Keys/Keys';
-import MovableDo from "./components/3. Keys/MovableDo";
+import Key1 from  './components/3. Key/Key1';
+import Key2 from  './components/3. Key/Key2';
+import MovableDo from "./components/3. Key/MovableDo";
 import Interval1 from './components/4. Chord/Interval1';
 import Interval2 from './components/4. Chord/Interval2';
 import Chord from './components/4. Chord/Chord';
@@ -33,7 +34,8 @@ function App() {
             <Route path="/MajorScale" element={<MajorScale />} />
             <Route path="/MinorScale" element={<MinorScale />} />
 
-            <Route path="/Keys" element={<Keys />} />
+            <Route path="/Key1" element={<Key1 />} />
+            <Route path="/Key2" element={<Key2 />} />
             <Route path="/MovableDo" element={<MovableDo />} />
 
             <Route path="/Interval1" element={<Interval1 />} />

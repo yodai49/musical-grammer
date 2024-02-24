@@ -6,7 +6,7 @@ import BottomButtons from '../BottomButtons';
 
 import {HashLink} from 'react-router-hash-link';
 
-const Keys = () => {
+const MovableDo = () => {
   return (
     <div className="window-wrapper">
       <div className="content-wrapper">
@@ -26,4 +26,4 @@ const Keys = () => {
   );
 };
 
-export default Keys;
+export default MovableDo;

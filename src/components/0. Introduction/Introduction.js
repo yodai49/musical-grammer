@@ -53,7 +53,7 @@ const Introduction = () => {
             </tr>
             <tr>
               <th scope="row">3. 調と階名</th>
-              <td><HashLink to="/Keys#title">調</HashLink>・<HashLink to="/MovableDo#title">階名</HashLink></td>
+              <td><HashLink to="/Key1#title">調①</HashLink>・<HashLink to="/Key2#title">調②</HashLink>・<HashLink to="/MovableDo#title">階名</HashLink></td>
               <td>調の音階の構成音を言える。音名と階名の違いが理解できる。</td>
             </tr>
             <tr>
@@ -75,6 +75,13 @@ const Introduction = () => {
           <Score id="Score1" score="CDEFGABc" />
           楽譜の下にある再生ボタンを押すと、音を聴くことができます。
         </div>
+        
+        <h2>表記について</h2>
+        <div className="text-wrap text-start">
+          本サイトでは、特に断りがない限り音名をすべてドイツ語で表記します。<br></br>
+          ドイツ語の音名は<HashLink to="/NaturalNote#title">幹音</HashLink>や<HashLink to="/DerivedNote#title">派生音</HashLink>の章で詳しく解説するので、現段階では覚えていなくも全く問題ありません。<br></br>
+        </div>
+
         <h2>クイズについて</h2>
         <div className="text-wrap text-start">
           理解を確認するため、各章に<em>クイズ</em>を用意しています。<br></br>

@@ -103,7 +103,7 @@ const Interval2 = () => {
         ここまで学ぶと、「増」「減」など、発展的な度数の種類も理解できます。<br></br><br></br>
         基準から外れる場合は、基準からどれほど外れているかによって「〇〇」が異なります。
         以下の表に沿って決定しましょう。表の1列が、半音1つ分に対応しています。<br></br><br></br>
-        <table className="table text-nowrap table-short">
+        <table className="table text-nowrap table-short spanned">
           <tbody>
             <tr>
               <td>例</td>
