@@ -203,7 +203,7 @@ const Harmony = () => {
 
         <QChord3 id="Quiz3"/>
         <QChord4 id="Quiz4"/>
-        <BottomButtons currentID = "Harmony"/>
+        <BottomButtons currentID = "Chord"/>
       </div>
     </div>
   );
