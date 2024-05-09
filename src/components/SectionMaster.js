@@ -3,7 +3,7 @@ const SECTION_LIST = [
     'NaturalNote', 'DerivedNote',
     'MajorScale', 'MinorScale',
     'Key1', 'Key2', 'MovableDo',
-    'Interval1', 'Interval2', 'Harmony',
+    'Interval1', 'Interval2', 'Chord',
 ];
 
 function searchSection(current, offset){

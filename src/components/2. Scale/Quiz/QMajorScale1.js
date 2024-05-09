@@ -9,7 +9,7 @@ const QMajorScale1 = (props) => {
     return (
     <div className="quiz">
         <div>Fから始まる長音階に含まれる音をすべて答えてください</div>
-        <QuizOptions id={props.id} text1="F, G, A, B, C, D, E, F" text2="F, G, A, B, Cis, Dis, E, F" text3="F, G, A, H, C, D, E, F" text4="この中に存在しない" />
+        <QuizOptions id={props.id} text1="F, G, A, B, C, D, E, F" text2="F, G, A, B, Cis, Dis, E, F" text3="F, G, A, H, C, D, E, F" text4="正しいものはない" />
         <QuizAnswerButton id={props.id} />
         <QuizMessage id = {props.id} answer="1"
             result1="正解です。" 

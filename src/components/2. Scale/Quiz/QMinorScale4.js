@@ -9,7 +9,7 @@ const QMinorScale4 = (props) => {
     return (
     <div className="quiz">
         <div>Cから始まる旋律的短音階の上行形に含まれる音をすべて答えてください</div>
-        <QuizOptions id={props.id} text1="C, D, E, F, G, A, H, C" text2="C, D, E, F, G, As, B, C" text3="C, D, Es, F, G, A, H, C" text4="この中に存在しない" />
+        <QuizOptions id={props.id} text1="C, D, E, F, G, A, H, C" text2="C, D, E, F, G, As, B, C" text3="C, D, Es, F, G, A, H, C" text4="正しいものはない" />
         <QuizAnswerButton id={props.id} />
         <QuizMessage id = {props.id} answer="3"
             result1="違います。これは、Cから始まる長音階です。" 

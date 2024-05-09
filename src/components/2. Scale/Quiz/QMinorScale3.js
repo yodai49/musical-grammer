@@ -9,7 +9,7 @@ const QMinorScale3 = (props) => {
     return (
     <div className="quiz">
         <div>Gから始まる自然的短音階に含まれる音をすべて答えてください</div>
-        <QuizOptions id={props.id} text1="G, A, B, C, D, Es, F, G" text2="G, A, B, C, D, E, Fis, G" text3="G, A, B, C, D, Es, Fis, G" text4="この中に存在しない" />
+        <QuizOptions id={props.id} text1="G, A, B, C, D, Es, F, G" text2="G, A, B, C, D, E, Fis, G" text3="G, A, B, C, D, Es, Fis, G" text4="正しいものはない" />
         <QuizAnswerButton id={props.id} />
         <QuizMessage id = {props.id} answer="3"
             result1="違います。この音階は、Gから始まる自然的短音階です。" 

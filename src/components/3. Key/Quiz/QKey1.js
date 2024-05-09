@@ -8,7 +8,7 @@ const QKey1 = (props) => {
     return (
     <div className="quiz">
         <div>変ホ長調の構成音をすべて答えてください</div>
-        <QuizOptions id={props.id} text1="Es, F, G, As, B, C, D, Es" text2="Es, F, Ges, As, B, C, Des, Es" text3="As, B, C, Des, Es, F, G, As" text4="この中に存在しない" />
+        <QuizOptions id={props.id} text1="Es, F, G, As, B, C, D, Es" text2="Es, F, Ges, As, B, C, Des, Es" text3="As, B, C, Des, Es, F, G, As" text4="正しいものはない" />
         <QuizAnswerButton id={props.id} />
         <QuizMessage id = {props.id} answer="1"
             result1="正解です。" 
