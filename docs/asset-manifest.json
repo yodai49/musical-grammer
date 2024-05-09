@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/musical-grammer/static/css/main.a8325a0d.css",
+    "main.js": "/musical-grammer/static/js/main.695c1ab9.js",
+    "static/js/592.0ee2d7f9.chunk.js": "/musical-grammer/static/js/592.0ee2d7f9.chunk.js",
+    "static/media/moon.png": "/musical-grammer/static/media/moon.685101de6d5c339d3a51.png",
+    "static/media/cat.png": "/musical-grammer/static/media/cat.a3fef694e297457c9847.png",
+    "static/media/piano.jpg": "/musical-grammer/static/media/piano.a81c3a3b4dafa7793ee3.jpg",
+    "index.html": "/musical-grammer/index.html",
+    "main.a8325a0d.css.map": "/musical-grammer/static/css/main.a8325a0d.css.map",
+    "main.695c1ab9.js.map": "/musical-grammer/static/js/main.695c1ab9.js.map",
+    "592.0ee2d7f9.chunk.js.map": "/musical-grammer/static/js/592.0ee2d7f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8325a0d.css",
+    "static/js/main.695c1ab9.js"
+  ]
+}
