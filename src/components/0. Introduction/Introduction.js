@@ -61,11 +61,6 @@ const Introduction = () => {
               <td><HashLink to="/Interval1#title">度数①</HashLink>・<HashLink to="/Interval2#title">度数②</HashLink>・<HashLink to="/Chord#title">和音</HashLink></td>
               <td>度数を答えられる。和音の構成音を言える。</td>
             </tr>
-            <tr>
-              <th scope="row">5. 和声法入門</th>
-              <td>禁則・限定進行音</td>
-              <td>和声法の概念を知る。基本的な禁則を覚える。</td>
-            </tr>
           </tbody>
         </table>
         </div>

@@ -49,16 +49,7 @@ const Header = () => {
                             <ul className="dropdown-menu">
                                 <li><HashLink to="/Interval1#title" className="dropdown-item">度数①</HashLink></li>
                                 <li><HashLink to="/Interval2#title" className="dropdown-item">度数②</HashLink></li>
-                                <li><HashLink to="/Harmony#title" className="dropdown-item">和音</HashLink></li>
-                            </ul>
-                        </li>
-                        <li className="nav-item dropdown">
-                            <a href="#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                5. 和声法入門
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li><HashLink to="/" className="dropdown-item">禁則</HashLink></li>
-                                <li><HashLink to="/NaturalNote" className="dropdown-item">限定進行音</HashLink></li>
+                                <li><HashLink to="/Chord#title" className="dropdown-item">和音</HashLink></li>
                             </ul>
                         </li>
                     </ul>
