@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary header fixed-top" data-bs-theme="dark">
             <div className="container-fluid">
-                <HashLink to="/" className="navbar-brand">楽典基礎</HashLink>
+                <HashLink to="/musical-grammer#title" className="navbar-brand">楽典基礎</HashLink>
                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navber" aria-controls="Navber" aria-expanded="false" aria-label="ナビゲーションの切替">
                     <span className="navbar-toggler-icon"></span>
                 </button>
