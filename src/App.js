@@ -26,6 +26,7 @@ function App() {
         <header className="App-header">
           <Routes>
             <Route path="/" element={<Introduction />} />
+            <Route path="/musical-grammer/" element={<Introduction />} />
 
             <Route path="/Introduction" element={<Introduction />} />
             <Route path="/NaturalNote" element={<NaturalNote />} />
